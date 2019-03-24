@@ -9,7 +9,7 @@ This project is intended to help tie together some important concepts and techno
 # Index.html
 For inputting the stock ticker
 
-#app.py
+# App.py
 Ticker value is fed into api string, and request sent to Quandl, to get data corresponding to fixed period. This dataframe containing stock closing prices over a month are then plotted through bokeh.
 
 
