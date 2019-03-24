@@ -3,3 +3,4 @@ requests==2.20.0
 Flask==0.10.1
 simplejson==3.8.0
 pandas==0.15.2
+bokeh==1.0.4
