@@ -1,6 +1,6 @@
 # Flask on Heroku
 
-Visualizing stock prices over a fixed month (2018/2/22-2018/3/22), depending on stock ticker input.
+Visualizing stock prices over a fixed 2 year period (2016/1/1-2018/1/1), depending on stock ticker input.
 
 Milestone project submission as part of the 12 day overview, prior to the start of The Data Incubator.
 

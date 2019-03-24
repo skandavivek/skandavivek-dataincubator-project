@@ -20,7 +20,7 @@ def fetch_quandl(ticker) :
 	now  = "&end_date=" + now.strftime("%Y-%m-%d")
 
 	reqUrl='https://www.quandl.com/api/v3/datasets/WIKI/' + ticker + \
-					'.json?api_key=' + 'ozDdzwk5k595x9k9VgNS' + '&end_date=2018-03-24' + '&start_date=2018-02-22'
+					'.json?api_key=' + 'ozDdzwk5k595x9k9VgNS' + '&end_date=2018-02-01' + '&start_date=2016-02-01'
 
 	r=requests.get(reqUrl)
 	name=r.json()['dataset']['name']
